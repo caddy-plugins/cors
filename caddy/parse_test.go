@@ -1,9 +1,10 @@
 package caddy
 
 import (
-	"github.com/caddyserver/caddy"
 	"reflect"
 	"testing"
+
+	"github.com/admpub/caddy"
 )
 
 func TestParse_OneLines(t *testing.T) {
